@@ -1,10 +1,10 @@
 # MieScat_Py
 
 ## 📌 Description
-Python codes for calculating scattering and absorption of plane-electromegnetic waves by a isotropic homogeneous sphere, aka the Lorenz-Mie theory.
+Python codes for calculating the scattering and absorption of plane-electromegnetic waves by a isotropic homogeneous sphere, aka the Lorenz-Mie theory.
 
 ### List of codes
-- `miescat.py` computes the optical efficiency factors (Qsca, Qext, Qabs, and Qback), scattering amplitudes (S11 and S22), and optical cross sections per unit mass (MSC, MEC, and MAC).
+- `miescat.py` computes the optical efficiency factors (Qsca, Qext, Qabs, and Qback), the scattering amplitudes (S11 and S22), and the optical cross sections per unit mass (MSC, MEC, and MAC).
 - `mie_complex_amplitudes.py` computes the scattering amplitudes observable by the Complex Amplitude Sensing (CAS-v1 and CAS-v2) 
 - `call_mie_scattering.ipynb` demonstrates how to use these Mie scattering codes.
 
