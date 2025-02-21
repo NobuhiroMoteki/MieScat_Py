@@ -5,6 +5,7 @@ Python codes for calculating the scattering and absorption of plane-electromegne
 
 ### List of codes
 - `miescat.py` computes the optical efficiency factors (Qsca, Qext, Qabs, and Qback), the scattering amplitudes (S11 and S22), and the optical cross sections per unit mass (MSC, MEC, and MAC).
+- `miescat_charged.py` an extended version of `miescat.py` for an electrically charged sphere.
 - `mie_complex_amplitudes.py` computes the scattering amplitudes observable by the Complex Amplitude Sensing (CAS-v1 and CAS-v2) 
 - `call_mie_scattering.ipynb` demonstrates how to use these Mie scattering codes.
 
@@ -39,6 +40,9 @@ This project is licensed under the MIT License. See the LICENSE file for details
 - Mie theory and its computational methods
     - Bohren, C. F., & Huffman, D. R. (2008). Absorption and scattering of light by small particles. John Wiley & Sons.
     - Mishchenko, M. I., Travis, L. D., & Lacis, A. A. (2002). Scattering, absorption, and emission of light by small particles. Cambridge university press.
+
+- Scattering theory for charged sphere and its computational methods
+    - Klacka, J., & Kocifaj, M. (2010). On the scattering of electromagnetic waves by a charged sphere. Progress In Electromagnetics Research, 109, 17-35.
   
 - Complex Amplitude Sensing (CAS)
     - Moteki, N. (2021). Measuring the complex forward-scattering amplitude of single particles by self-reference interferometry: CAS-v1 protocol. Optics Express, 29(13), 20688-20714.
