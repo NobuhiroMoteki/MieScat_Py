@@ -8,6 +8,7 @@ Python codes for calculating the scattering and absorption of plane-electromegne
 - `miescat_charged.py` an extended version of `miescat.py` for an electrically charged sphere.
 - `mie_complex_amplitudes.py` computes the scattering amplitudes observable by the Complex Amplitude Sensing (CAS-v1 and CAS-v2) 
 - `call_mie_scattering.ipynb` demonstrates how to use these Mie scattering codes.
+- `make_mie_F_table.ipynb` compute the F-table (ref. Moteki 2020 JQSRT) in parquet (pandas df) format for spherical particles.
 
 ---
 
@@ -47,6 +48,10 @@ This project is licensed under the MIT License. See the LICENSE file for details
 - Complex Amplitude Sensing (CAS)
     - Moteki, N. (2021). Measuring the complex forward-scattering amplitude of single particles by self-reference interferometry: CAS-v1 protocol. Optics Express, 29(13), 20688-20714.
     - Moteki, N., & Adachi, K. (2024). Measuring the polarized complex forward-scattering amplitudes of single particles in unbounded fluid flow: CAS-v2 protocol. Optics Express, 32(21), 36500-36522.
+
+- Definition of the F-table (CAS, SPES)
+    - Moteki, N. (2020). Capabilities and limitations of the single-particle extinction and
+    scattering method for estimating the complex refractive index and size-distribution of spherical and non-spherical submicron particles. Journal of Quantitative Spectroscopy and Radiative Transfer, 243, 106811.
 
 
 
