@@ -4,6 +4,7 @@
 
 Python implementation of the Lorenz-Mie theory for calculating the scattering and absorption of plane electromagnetic waves by an isotropic homogeneous sphere.
 Supports neutral spheres, electrically charged spheres, and Complex Amplitude Sensing (CAS) observables.
+For details on the underlying theory and algorithms, see [docs/theory_note.pdf](docs/theory_note.pdf).
 
 ### File structure
 
