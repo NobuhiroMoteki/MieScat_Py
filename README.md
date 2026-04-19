@@ -1,5 +1,7 @@
 # MieScat_Py
 
+[![GitHub release](https://img.shields.io/github/v/release/NobuhiroMoteki/MieScat_Py?sort=semver)](https://github.com/NobuhiroMoteki/MieScat_Py/releases/latest)
+
 ## Description
 
 Python implementation of the Lorenz-Mie theory for calculating the scattering and absorption of plane electromagnetic waves by an isotropic homogeneous sphere.
