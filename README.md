@@ -36,6 +36,15 @@ cd MieScat_Py
 
 #### 2. Install dependencies
 
+Using [uv](https://docs.astral.sh/uv/) (recommended):
+
+```sh
+uv venv
+uv pip install -r requirements.txt
+```
+
+Or using pip:
+
 ```sh
 pip install -r requirements.txt
 ```
